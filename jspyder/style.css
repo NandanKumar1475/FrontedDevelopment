@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(228, 213, 213);
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right-nav{
+    display:flex;
+    margin: 10px;
+    padding: 10px;
+    gap: 30px;
+    font-size: 20px;
+}
+.right-nav li  {
+    list-style: none;
+    text-decoration:none ;
+    text-transform: capitalize;
+
+}
+.right-nav li a  {
+    text-decoration:none ;
+}
+.record{
+    border: 2px solid red;
+    margin: 10px;
+    padding: 10px;
+    height: 50vh;
+    width: 70vh;
+
+}
+.left-cont{
+    background-color: rgb(109, 109, 243);
+    margin-top: 20px; 
+}
+.left-cont h5 {
+    margin-top: 22px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+   
+}
+.left-cont a{
+    color: rgba(255, 153, 0, 0.658);
+    font-weight: 800;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading-left{
+    text-align: center;
+}
+.content-left a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 2px;
+    color: rgb(240, 176, 15);
+}
+.right-cont{
+    text-align: center;
+}
+.right-heading {
+    text-align: center;
+    font-weight: 800;
+    
+
+}
+.right-cont a{
+    color: rgb(248, 248, 8);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+ 
+}
+.past-placedRecord{
+    background-color: rgb(237, 230, 230);
+    margin: 15px;
+    padding: 10px;
+    border-left: 5px solid #5a7670;
+    border-right: 5px solid #5a7670;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-weight: 400;
+    font-size: 25px;
+    text-decoration: none;
+
+
+}
+.span{
+    color: rgb(239, 239, 15);
+    font-weight: 1000;
+    margin: 10px;
+}
+.past-placedRecord a{
+    color: black;
+    font-weight: 500;
+    font-weight: 400;
+    font-size: 25px;
+    text-decoration: none;
+}
+.right h1{
+    text-align: center;
+}
+.right h3{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    font-size: 20px;
+}
+.year{
+    display: flex;
+    justify-content: space-evenly;
+}

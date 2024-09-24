@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.firstday{
+    text-align: center;
+    margin: 0px auto;
+    background-color: rgb(49, 128, 198);
+     text-transform: capitalize;
+}.HeadingTag{
+    padding: 10px;
+}
