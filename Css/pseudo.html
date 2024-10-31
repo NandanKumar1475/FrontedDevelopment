@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo seletor</title>
+    <style>
+        p::first-letter{
+            color: rgb(52, 146, 227);
+            font-size: 30px;
+        
+        }
+        p::before{
+            content: "i love you ";
+        }
+        p::after{
+            content: "i love you too";
+        }
+        p::first-line{
+            color:red
+        }
+        input{
+            height: 30px;
+            width: 50% ;
+        }
+        input::placeholder{
+            color: rgb(250, 114, 137);
+            font-size: 20px;
+        }
+       input::-ms-fill-upper
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, dolor?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad blanditiis ipsam illo molestiae minima, perspiciatis sed est culpa. Sit, velit.</p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quisquam obcaecati sit in illo vitae exercitationem praesentium accusantium, corporis, natus consectetur aliquam deleniti, voluptate reprehenderit voluptatem accusamus ullam optio numquam.</p>
+    <h1>
+        <label for="name">enter your name</label>
+        <input type="text" name="" id="" placeholder="enter your name">
+    </h1>
+</body>
+</html>

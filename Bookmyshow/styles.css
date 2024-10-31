@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px  40px;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(245,245,245)
+
+}
+.search>input{
+    height: 40px;
+    width: 700px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0px 30px;
+}
+.search>img{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top:5px;
+    left: 30px;
+}
+
+.account select{
+    border: none;
+    padding: 5px;
+    background-color: inherit;
+    width: 100px;
+    font-size: 15px;
+    
+}
+.account button{
+    background-color: rgb(220, 30, 30);
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* navbar  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 0px 40px;
+    height: 50px;
+    background: rgb(245, 245, 245);
+    height: 10vh;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 5px;
+    font-family: sans-serif;
+}
+.logo img{
+    height: 60px;
+    border-radius: 20px;
+}
+.hodingg marquee img{
+    padding: 15px;
+    border: 1px groove inherit;
+    border-radius: 30px;
+}
+.content{
+    background: rgb(245, 245, 245);
+    height: 80vh;
+
+}
+.movie-heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+
+}
+.movie-heading span{
+    color: red;
+    font-size: 18px;
+}
+.movie-heading h1{
+    font-size: 30px;
+}
+.movie-Recomd{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 40px;
+}
+.movies-name img{
+    height: 400px;
+    width: 230px;
+    border-radius: 10px;
+    position: relative;
+    top: 40px;
+    transition: 1s;
+}
+.movie-Recomd span{
+    color: grey;
+}
+.movies-name{
+    width: 230px;
+}
+.movies-name img:hover{
+    top: 0px;
+    
+}

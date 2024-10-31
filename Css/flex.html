@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex property </title>
+    <style>
+        .parent{
+            background-color: black;
+            color: white;
+            height: 400px;
+            width: 500px;
+            /* display property  */
+            /* to allign the horizontalaly default property */
+            /* left to right  */
+            display: flex; 
+            /* top to bottom  */
+            /* flex-direction: column; */
+
+            /* right to left  */
+            /* flex-direction: row-reverse; */
+            
+            /* bottom to top  */
+            /* flex-direction: column-reverse; */
+
+            /* justify content property  */
+
+            /* give space between the child  */
+            justify-content: space-around;
+            justify-content: space-between;
+            justify-content: space-evenly;
+
+            /* align item  */
+            /* to the top  */
+            align-items: start;
+            /* to the bottom  */
+            align-items: end;
+            /* to the centre  */
+            align-items: center;
+            
+
+
+
+
+
+        }
+        .m1{
+            background-color: red;
+            height: 80px;
+            width: 80px;
+        }
+        .m2{
+            background-color: blue;
+            height: 80px;
+            width: 80px;
+        }
+        .m3{
+            background-color: brown;
+            height: 80px;
+            width: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="m1"></div>
+        <div class="m2"></div>
+        <div class="m3"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation in Html </title>
+    <style>
+        .box1{
+            height: 150px;
+            width: 100px;
+            margin: 0 auto;
+            background-color: rgb(237, 9, 9);
+            border: 8px solid rgb(20, 197, 85);
+            border-bottom: 8px groove pink;
+            border-radius: 100px;
+            animation-name: load;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        .box2{
+            width: 100px;
+            height: 100px;
+            margin: 50px auto;
+            background-color: pink;
+            border: 15px solid black;
+            border-radius: 100px;
+            border-top: green;
+            border-bottom: pink;
+            animation-name: resize;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes load {
+            from{
+                transform: rotate(0deg);
+
+            }
+            to{
+                transform: rotate(360deg);
+            }
+            
+        }
+        @keyframes resize {
+            from{
+                transform: scale(1);
+            }
+            to{
+                transform: scale(2);
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+</body>
+</html>

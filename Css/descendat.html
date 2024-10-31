@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>descendent</title>
+    <style>
+        .sparent p{
+            color:white;
+            background-color: black;
+        }
+        .sparent>p{
+            color: aqua;
+            background-color: tomato;
+        }
+        .parent p{
+            color: blue;
+            background-color: yellow;
+        }
+        .parent>p{
+            color: blueviolet;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="sparent">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In beatae fugit possimus nostrum, dicta adipisci aperiam! Quasi unde illo explicabo? Est numquam fuga fugiat earum totam repudiandae illum aut unde.</p>
+        <div class="parent">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur perferendis neque expedita sint, vel quaerat reiciendis provident ducimus nulla totam soluta magni officiis assumenda molestias inventore id minima odio!
+            </p>
+            <div class="child">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus cumque iste et officiis, mollitia nobis officia rerum iusto error, accusantium earum dolore consectetur quia dolorum labore ducimus voluptas facilis ex.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

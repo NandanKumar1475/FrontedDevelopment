@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo in css</title>
+    <style>
+        .box1>b:first-child{
+            color: green;
+        }
+        b:last-child{
+            color: red;
+            padding: 10px;
+        }
+        b:nth-child(3){
+            background-color: black;
+            color: wheat;
+        }
+        input{
+            transition: 1s;
+        }
+       input:focus{
+         padding: 10px;
+         background-color: antiquewhite;
+       }
+       
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="box1">
+        <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, assumenda!</b>
+        <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, assumenda!</b>
+        <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, assumenda!</b>
+        <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, assumenda!</b>
+        <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, assumenda!</b>
+        <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, assumenda!</b>
+    </div>
+    <div class="box2">
+        <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, aliquam.</b>
+        <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, assumenda!</b>
+        <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, assumenda!</b>
+        <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, assumenda!</b>
+        <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, assumenda!</b>
+    </div>
+    <div class="box3">
+        <a href=""><h1>click here</h1></a>
+        <input type="text">
+
+    </div>
+    <div class="box4">
+        <input type="text">
+    </div>
+    <div class="box5">
+        <input type="text" name="" id="">
+    </div>
+    
+</body>
+</html>
