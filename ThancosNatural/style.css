@@ -3,26 +3,25 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.nav-img{
-    background-image: url(./assets/background.jpg);
-    background-size: cover;
-    background-position: center;
+.bg-img{
     height: 100vh;
+    background: url(./assets/background.jpg);
+    background-size: cover;
 }
-.navbar{
-    /* background-color: rgb(247, 242, 242); */
-    padding: 20px;
-   position: sticky;
-   top: 0px;
-}
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: inherit;
+  }
 .main-nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;  
     gap: 25px;
-    /* overflow: hidden;  */
 }
 .main-nav li {
     font-size: 18px;
@@ -30,27 +29,24 @@
     font-weight: bold;
     list-style: none;
     margin-top: 30px;
-    
-    
 }
 .main-nav li a{
     color: white;
     text-decoration: none;
     text-align: center;
-    /* padding: 15px; */
 }
 .hero-content{
     display: flex;
     justify-content: space-around;
     height: 100vh;
-    /* background-image: radial-gradient(rgb(151, 121, 65),rgb(234, 174, 64)); */
     padding: 60px 80px;
     font-family: cursive;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
-    background: radial-gradient(orange, rgb(243, 175, 51));
-    color: white;
-    
+    background: url(./assets/Thancos-Web-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;   
 }
 .left-hero{
     width: 350px;
@@ -66,6 +62,10 @@
     font-weight:bold;
     margin: 10px;
 }
-
+.third-content{
+    height: 100vh;
+  background: url(	https://www.thancosnatural.com/wp-content/uploads/2017/12/Thancos-Web-Flav-bg.jpg);
+  background-size: cover;
+}
 
 
