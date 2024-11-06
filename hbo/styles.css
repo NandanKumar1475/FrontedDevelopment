@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    height: 10vh;
+    margin: 5px;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -25,15 +29,18 @@ nav{
     list-style: none;
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
+    
 }
 .nav-links li a{
     text-decoration: none;
     text-align: center;
     color: black;
+    text-transform: capitalize;
 }
 /* right nav  */
 .right-nav{
-    margin: 30px;
+    margin: 10px;
+    align-items: center;
 }
 .btn1{
     padding: 4px;
@@ -50,7 +57,7 @@ nav{
     width: 200px;
     height: 40px;
     font-size: 20px;
-    background-color: blue;
+    background-color: rgb(51, 51, 219);
     color: white;
     border: none;
     outline: none;
@@ -63,36 +70,36 @@ nav{
 }
 .banner-content{
     position: relative;
-    bottom: 160px;
+    bottom: 180px;
     color: white;
     height: 20vh;
     padding-left: 100px;
 }
 .banner-content span{
     font-size: 20px;
-    padding: 10px;
     
 }
 .banner-content h1{
-    font-size: 30px;
+    font-size: 45px;
     margin-top: 5px;
 
 }
 .banner-content p{
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 3px;
 }
 .btn button{
-    width:180px ;
-    padding: 12px;
-    background-color: blue;
+    width:170px ;
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(55, 19, 145);
     color: white;
     border: none;
     outline: none;
     border-radius: 5px;
     margin-top: 10px;
-    margin-left: 30px;
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    cursor: pointer;
 }
