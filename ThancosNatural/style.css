@@ -10,12 +10,13 @@
     height: 100vh;
     background: url(./assets/background.jpg);
     background-size: cover;
+    
 }
 #navbar {
     position: sticky;
     top: 0;
     background-color: inherit;
-  }
+}
 .main-nav{
     display: flex;
     flex-wrap: wrap;
@@ -70,7 +71,8 @@
     height: 100vh;
   background: url(	https://www.thancosnatural.com/wp-content/uploads/2017/12/Thancos-Web-Flav-bg.jpg);
   background-size: cover;
-  display: flex;
+   display: flex;
+  
   justify-content: center;
   align-items: center;
   gap: 60px;
