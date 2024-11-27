@@ -19,3 +19,4 @@ div2Content[2].innerHTML = "umesh meri jaan"
 
 div2Content[1].style.fontSize =  "40px"
 div2Content[0].style.backgroundColor = "red"
+
