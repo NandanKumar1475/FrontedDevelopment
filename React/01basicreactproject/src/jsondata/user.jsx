@@ -238,7 +238,7 @@ function User() {
         <h1>The Details of Employees</h1>
       <div className="card-container">
         {users.map((userData) => (
-          <div key={userData.id} className="card">
+          <div className="card">
             <p>{`ID: ${userData.id}`}</p>
             <p>{`Name: ${userData.name}`}</p>
             <p>{`Email: ${userData.email}`}</p>
