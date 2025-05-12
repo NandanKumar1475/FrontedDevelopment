@@ -1,54 +1,23 @@
-/* user.css */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+body{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+.header{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  justify-items: center;
   align-items: center;
 }
-
-h1 {
-  color: #333;
-  text-align: center;
-}
-
-/* Navbar-like container */
-.card-container {
-  display: flex;
-  flex-wrap: nowrap; /* Prevents wrapping */
-  overflow-x: auto; /* Enables horizontal scrolling if needed */
-  gap: 15px;
+.right{
   padding: 10px;
-  background-color: #007bff;
-  border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  width: 90%;
-  justify-content: center;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+  
+  
 }
-
-.card {
-  background-color: #fff;
-  width: 250px;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease-in-out;
-  text-align: center;
-}
-
-.card:hover {
-  transform: scale(1.05);
-}
-
-.card p {
-  margin: 5px 0;
-  font-size: 14px;
-  color: #333;
-}
-
-.card p:first-child {
-  font-weight: bold;
-  color: #007bff;
+.header{
+  background: black;
 }
