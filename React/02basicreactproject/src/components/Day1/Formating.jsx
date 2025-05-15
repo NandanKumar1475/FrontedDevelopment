@@ -1,0 +1,1 @@
+//the process of wriing the html Element or tags into javascript object or javascript object into html tags
