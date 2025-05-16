@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.socail-media{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    margin: 20px;
+    padding: 30px;
+
+}
+.about{
+    display: flex;
+}
+.socail-media img{
+    height: 60px;
+}
