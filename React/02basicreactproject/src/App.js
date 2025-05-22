@@ -10,15 +10,22 @@ import Facebook from './components/Day5/Facebook';
 import LikeComponent from './components/Day5/LikeComonent';
 import Whatsapp from './components/Day5/Whatsapp';
 import { use } from 'react';
+import FetchData from './components/FetchData/Fetchdata';
 
 
 function App() {
   const[like,setLike] = useState(0);
   return (
     <div className="App">
-     <LikeComponent></LikeComponent>
+
+     {/* <LikeComponent></LikeComponent>
      <h1>Whats app categories</h1>
-     <Whatsapp data = {{like,setLike}}></Whatsapp>
+     <Whatsapp data = {{like,setLike}}></Whatsapp> */}
+
+     {/* fetch data  */}
+
+     <FetchData></FetchData>
+
 
     </div>
   );

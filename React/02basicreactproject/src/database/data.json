@@ -1,0 +1,39 @@
+{
+    "products" : [
+        {
+            "id" : "111",
+            "name" : "soap",
+            "price" : "45"
+        },
+        {
+            "id" : "112",
+            "name" : "shamoo",
+            "price" : "450"
+        },
+        {
+            "id" : "113",
+            "name" : "conditioner",
+            "price" : "4"
+        },
+        {
+            "id" : "114",
+            "name" : "perfume",
+            "price" : "4500"
+        }
+    ],
+    "user_data" : [
+        {
+            "id" : "1",
+            "username" : "nandankumar1475@gmail.com"
+        },
+        {
+            "id" : "2",
+            "username" : "nandanloveumesh@gmail.com"
+        },
+        {
+            "id" : "1",
+            "username" : "umesh@gmail.com"
+        }
+    ]
+
+}
