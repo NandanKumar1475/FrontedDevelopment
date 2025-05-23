@@ -1,16 +1,41 @@
+import ''
+
 import { Link } from "react-router-dom";
+import { useState } from "react";
+
+
+import { toast } from "react-toastify";
 
 const AdminLogin = () => {
+    const[username,setUsername] = useState("");
+    const[password,setPassword] = useState("");
+    console.log(username);
+    console.log(password);
+    function validLogin(e) {
+        e.preventDefault();
+        if(username === "nandan@gmail.com" && password === "nandan"){
+            toast.success("Login Success")
+        }else{
+            toast.error("Invalid Credential")
+        }
+           
+    }
     return (
         <>
             <div className="admin-login">
                 <label htmlFor="username">Enter username</label>
-                <input type="text" id="username" placeholder="Enter username" />
+                <input onChange={(e)=>{
+                    setUsername(e.target.value);
+
+                }} type="text" id="username" value={username} placeholder="Enter username" />
                 <br />
+
                 <label htmlFor="password">Enter password</label>
-                <input type="password" id="password" placeholder="Enter password" />
+                <input onChange={(e)=>{
+                    setPassword(e.target.value)
+                }} type="password" id="password" value={password} placeholder="Enter password" />
                 <br />
-                <button>Login</button>
+                <button onClick={validLogin}>Login</button>
             </div>
 
             <div className="signup-link">
