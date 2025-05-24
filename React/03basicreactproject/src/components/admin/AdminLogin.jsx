@@ -1,4 +1,4 @@
-import ''
+import '../../styles/AdminLogin.css'
 
 import { Link } from "react-router-dom";
 import { useState } from "react";
@@ -35,15 +35,16 @@ const AdminLogin = () => {
                     setPassword(e.target.value)
                 }} type="password" id="password" value={password} placeholder="Enter password" />
                 <br />
-                <button onClick={validLogin}>Login</button>
-            </div>
-
-            <div className="signup-link">
+                <button onClick={validLogin} className='admin-btn'>Login</button>
+                <div className="signup-link">
                 <p>Don't have an account?</p>
                 <Link to="/adminRegister">
                     <span>Sign Up</span>
                 </Link>
             </div>
+            </div>
+
+            
         </>
     );
 };

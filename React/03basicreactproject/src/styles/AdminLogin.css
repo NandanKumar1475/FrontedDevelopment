@@ -1,0 +1,33 @@
+.admin-login{
+    background-color: lightblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.admin-login label{
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+.admin-login input{
+    height: 25px;
+    width: 250px;
+    outline: none;
+    background-color: inherit;
+}
+.admin-btn{
+    width: 50px;
+    padding: 4px;
+    color: blue;
+    font-weight:300;
+}
+.admin-login input::placeholder{
+    color: white;
+    font-size: 15px;
+}
+.signup-link{
+    
+}
