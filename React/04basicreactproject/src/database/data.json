@@ -1,0 +1,28 @@
+{
+  "Student": [
+    {
+      "id": "987d",
+      "name": "Nandan",
+      "email": "nandan@gmail.com",
+      "phone": "7301034551",
+      "address": "gaya",
+      "password": "umesh"
+    },
+    {
+      "id": "b830",
+      "name": "umesh",
+      "email": "jaanu@gmail.com",
+      "phone": "7301034551",
+      "address": "lauda",
+      "password": "umesh"
+    },
+    {
+      "id": "a3bd",
+      "name": "umesh",
+      "email": "jaanu@gmail.com",
+      "phone": "7301034551",
+      "address": "lauda",
+      "password": ""
+    }
+  ]
+}

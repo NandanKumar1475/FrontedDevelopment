@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    gap: 50px;
+    background-color: rgb(239, 205, 205);
+    position: sticky;
+    margin-top: 20px;
+    
+}
+.left-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+.left-footer img{
+    height: 60px; 
+    border: 2px solid rgb(222, 82, 82);
+    border-radius: 50px;
+    transition: all;
+}
+
+.right-footer{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
+.right-footer p{
+    padding: 10px;
+    margin: 10px;
+}

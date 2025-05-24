@@ -30,6 +30,7 @@ const AdminRegister = () => {
     }
     return (
         <>
+        
             <div className="admin-register">
                 <h1>Welcome to user Registration </h1>
                 <form  onSubmit={add_Admin} action="" className="form">

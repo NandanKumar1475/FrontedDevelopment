@@ -1,0 +1,10 @@
+form{
+    display: grid;
+    column-gap: 50px;
+    row-gap: 10px;
+    grid-template-columns: 250px; 
+    grid-template-rows: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
