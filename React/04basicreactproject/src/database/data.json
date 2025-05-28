@@ -23,6 +23,30 @@
       "phone": "7301034551",
       "address": "lauda",
       "password": ""
+    },
+    {
+      "id": "a29e",
+      "name": "nandan",
+      "email": "nandan@gmail.com",
+      "phone": "1234567890",
+      "address": "gsg",
+      "password": "qwfegr"
+    },
+    {
+      "id": "20b3",
+      "name": "safdgbfn",
+      "email": "nandan21@gmil.com",
+      "phone": "1234567890",
+      "address": "qwedf",
+      "password": "sfdgf"
+    },
+    {
+      "id": "4f42",
+      "name": "safdgbfn",
+      "email": "nandan21@gmil.com",
+      "phone": "1234567890",
+      "address": "qwedf",
+      "password": "sfdgf"
     }
   ]
 }

@@ -1,0 +1,37 @@
+.lefthome{
+    background-color: antiquewhite;
+    padding: 5%;
+    font-family: sans-serif;
+}
+.left-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 6px;
+    cursor: pointer;
+}
+.righthome{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    margin: 1%;
+
+}
+.box{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 350px;
+    width: 300px;
+    
+}
+.box img{
+    height: 300px;
+    width: 300px;
+    
+   
+}

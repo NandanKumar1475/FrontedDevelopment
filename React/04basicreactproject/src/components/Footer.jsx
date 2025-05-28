@@ -25,8 +25,10 @@ const Footer = ()=>{
                     <h1>products</h1>
                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, libero.</p>
                 </div>
+                
 
             </div>
+            
         </div>
         
         

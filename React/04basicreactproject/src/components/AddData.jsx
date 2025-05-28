@@ -22,6 +22,11 @@ const AddData = ()=>{
         .then((res)=>{
             console.log(res);
             toast.success("Student Registration Succesfully") 
+            setName("");
+            setEmail("");
+            setPhone("");
+            setAddress("");
+            setPassword("");
         })
         .catch((err) =>{
             console.log(err);
@@ -38,6 +43,10 @@ const AddData = ()=>{
         <>
         <Navbar></Navbar>
         <h1>Welocome To student Registration </h1>
+        <div className="add-data">
+            <div className="left-add-data">
+            <img src="https://png.pngtree.com/thumb_back/fw800/background/20240106/pngtree-web-ui-ux-design-and-coding-development-concept-illustration-vector-image_15575159.jpg" alt="home-png" />
+        </div>
         <div className="reg-form">
             <form onSubmit={registerStudent} action="" >
                 <label htmlFor="name">
@@ -74,8 +83,9 @@ const AddData = ()=>{
                 <input type="password" value={password}  onChange={(e)=>{
                     setPassword(e.target.value)
                 }} placeholder="Enter your password"  required/>
-                <button>Submit</button>
+                <button type='submit'>Submit</button>
             </form>
+        </div>
         </div>
         <Footer></Footer>
         </>
